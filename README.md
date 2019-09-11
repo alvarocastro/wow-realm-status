@@ -1,4 +1,8 @@
 # wow-realm-status
+[![NPM](https://img.shields.io/npm/v/wow-realm-status.svg)](https://www.npmjs.com/package/wow-realm-status)
+[![Build Status](https://travis-ci.com/alvarocastro/wow-realm-status.svg?branch=master)](https://travis-ci.com/alvarocastro/wow-realm-status)
+[![codebeat badge](https://codebeat.co/badges/d83c4838-f459-41d3-925e-dca6d0e6b254)](https://codebeat.co/projects/github-com-alvarocastro-wow-realm-status-master)
+[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
 
 Easily fetch info about the World of Warcraft realms.
 
