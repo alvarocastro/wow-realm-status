@@ -1,6 +1,6 @@
 {
   "name": "wow-realm-status",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Fetch information about World of Warcraft realms",
   "main": "index.js",
   "scripts": {
