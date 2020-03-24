@@ -1,5 +1,11 @@
 {
   "extends": [
     "config:base"
+  ],
+  "travis": {
+    "enabled": true
+  },
+  "supportPolicy": [
+    "active"
   ]
 }
