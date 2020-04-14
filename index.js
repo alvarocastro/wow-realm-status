@@ -14,7 +14,7 @@ const apiFetch = function (input) {
 			extensions: {
 				persistedQuery: {
 					version: 1,
-					sha256Hash: '7b3ba73c1458c52eec129aaf0c64d8be62f5496754f1143f8147da317fdd2417'
+					sha256Hash: '9c7cc66367037fda3007b7f592201c2610edb2c9a9292975cd131a37bbe61930'
 				}
 			}
 		},
