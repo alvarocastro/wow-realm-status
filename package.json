@@ -29,6 +29,6 @@
     "request-promise-native": "^1.0.7"
   },
   "devDependencies": {
-    "xo": "0.29.1"
+    "xo": "0.33.1"
   }
 }
