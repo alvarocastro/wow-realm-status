@@ -23,9 +23,6 @@
   "bugs": {
     "url": "https://github.com/alvarocastro/wow-realm-status/issues"
   },
-  "engines": {
-    "node": "10 || >=12"
-  },
   "homepage": "https://github.com/alvarocastro/wow-realm-status#readme",
   "dependencies": {
     "request": "^2.88.0",
