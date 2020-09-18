@@ -9,6 +9,8 @@ Easily fetch info about the World of Warcraft realms.
 - [Install](#install)
 - [Usage](#usage)
 - [Realm data](#realm-data)
+- [Contributing](#contributing)
+- [Support](#support)
 - [Related](#related)
 
 ## Install
@@ -103,6 +105,14 @@ Type: `string`
 
 Current population of the realm.<br>
 Possible values are: `very-low`, `low`, `medium`, `high`, `full`
+
+## Contributing
+
+Contributions are always welcome! Please run `npm test` before hand to ensure everything is ok.
+
+## Support
+
+If you use this package please consider starring it :)
 
 ## Related
 
