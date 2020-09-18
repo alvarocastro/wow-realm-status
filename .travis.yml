@@ -1,6 +1,5 @@
 sudo: false
 language: node_js
 node_js:
-  - '10'
-  - '12'
+  - 'lts/*'
 after_success: npm run coverage
