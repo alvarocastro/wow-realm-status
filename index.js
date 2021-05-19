@@ -26,9 +26,11 @@ const makeRegionGameVersionSlug = function (region, version = 'retail') {
 	if (version === 'classic') {
 		return `classic-${region}`;
 	}
+
 	if (version === 'bc') {
 		return `bcc-${region}`;
 	}
+
 	return region;
 };
 
