@@ -1,6 +1,5 @@
 # wow-realm-status
 [![NPM](https://img.shields.io/npm/v/wow-realm-status.svg)](https://www.npmjs.com/package/wow-realm-status)
-[![Build Status](https://travis-ci.com/alvarocastro/wow-realm-status.svg?branch=master)](https://travis-ci.com/alvarocastro/wow-realm-status)
 [![Maintainability](https://api.codeclimate.com/v1/badges/753c087f0d8331aa962c/maintainability)](https://codeclimate.com/github/alvarocastro/wow-realm-status/maintainability)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
 
