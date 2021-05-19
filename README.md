@@ -36,7 +36,7 @@ fetchRealm('us', 'ragnaros')
 //}
 ```
 
-### fetchRealm(region, realm[, classic])
+### fetchRealm(region, realm[, version="retail"])
 
 Returns a JSON object containing the realm data.
 
@@ -51,9 +51,9 @@ Type: `string`
 #### classic
 
 Type: `boolean`<br>
-Default: `false`
+Default: `"retail"`
 
-### fetchRealms(region[, classic])
+### fetchRealms(region[, version])
 
 Returns an array of JSON objects with the realms for that region.
 
@@ -61,10 +61,13 @@ Returns an array of JSON objects with the realms for that region.
 
 Type: `string`
 
-#### classic
+#### version
 
-Type: `boolean`<br>
-Default: `false`
+To specify the game version to fetch.
+
+Type: `string`<br>
+Supported values: `"retail"`, `"classic"`, `"bc"`<br>
+Default: `"retail"`
 
 ## Realm data
 
