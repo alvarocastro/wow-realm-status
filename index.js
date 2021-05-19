@@ -22,8 +22,18 @@ const apiFetch = function (input) {
 	});
 };
 
-const fetchRealms = async function (region, classic = false) {
-	const compoundRegionGameVersionSlug = `${classic ? 'classic-' : ''}${region}`;
+const makeRegionGameVersionSlug = function (region, version = 'retail') {
+	if (version === 'classic') {
+		return `classic-${region}`;
+	}
+	if (version === 'bc') {
+		return `bcc-${region}`;
+	}
+	return region;
+};
+
+const fetchRealms = async function (region, version = 'retail') {
+	const compoundRegionGameVersionSlug = makeRegionGameVersionSlug(region, version);
 	const {data} = await apiFetch({compoundRegionGameVersionSlug});
 	const realmsRaw = data.Realms;
 
@@ -46,8 +56,8 @@ const fetchRealms = async function (region, classic = false) {
 	});
 };
 
-const fetchRealm = async function (region, realm, classic = false) {
-	const realms = await fetchRealms(region, classic);
+const fetchRealm = async function (region, realm, version = 'retail') {
+	const realms = await fetchRealms(region, version);
 
 	return realms.find(r => {
 		return [r.name, r.slug].includes(realm.toLowerCase());
