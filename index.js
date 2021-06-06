@@ -66,7 +66,7 @@ const fetchRealm = async function (region, realm, version = 'retail') {
 	const realms = await fetchRealms(region, version);
 
 	return realms.find(r => {
-		return [r.name, r.slug].includes(realm.toLowerCase());
+		return [r.name.toLowerCase(), r.slug.toLowerCase()].includes(realm.toLowerCase());
 	});
 };
 
