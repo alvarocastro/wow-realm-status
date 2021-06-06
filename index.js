@@ -40,10 +40,14 @@ const fetchRealms = async function (region, version = 'retail') {
 	const realmsRaw = data.Realms;
 
 	return realmsRaw.map(realm => {
-		let population = realm.population.slug;
+		let population;
 
-		if (population === 'recomended') {
+		if (!realm.population) {
+			population = '-';
+		} else if (realm.population.slug === 'recomended') {
 			population = 'very-low';
+		} else {
+			population = realm.population.slug;
 		}
 
 		return {
